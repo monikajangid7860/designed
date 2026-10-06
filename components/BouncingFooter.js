@@ -3,6 +3,23 @@
 import { motion, useReducedMotion } from 'framer-motion';
 
 const words = ['GOOD', 'THINGS', 'TAKE', 'ENERGY.'];
+const letterVariants = {
+  hidden: (index) => ({
+    y: '-105vh',
+    rotate: (index % 2 ? 1 : -1) * (18 + (index % 4) * 5),
+  }),
+  visible: {
+    y: 0,
+    rotate: 0,
+    transition: {
+      type: 'spring',
+      mass: 1.2,
+      stiffness: 115,
+      damping: 11,
+    },
+  },
+};
+
 const links = [
   { label: 'Home', href: '#top' },
   { label: 'The people', href: '#zigzag-team-title' },
@@ -23,7 +40,18 @@ export default function BouncingFooter() {
 
       <div className="gravity-footer__stage">
         <p className="gravity-footer__eyebrow">THAT'S A WRAP / 2026</p>
-        <h2 className="gravity-footer__headline" id="gravity-footer-title" aria-label={words.join(' ')}>
+        <motion.h2
+          className="gravity-footer__headline"
+          id="gravity-footer-title"
+          aria-label={words.join(' ')}
+          initial={reducedMotion ? false : 'hidden'}
+          whileInView={reducedMotion ? undefined : 'visible'}
+          viewport={{ once: true, amount: 0.1 }}
+          variants={{
+            hidden: {},
+            visible: { transition: { staggerChildren: 0.055 } },
+          }}
+        >
           {words.map((word) => (
             <span className="gravity-footer__word" aria-hidden="true" key={word}>
               {Array.from(word).map((character) => {
@@ -32,18 +60,8 @@ export default function BouncingFooter() {
                   <motion.span
                     className="gravity-footer__letter"
                     key={`${word}-${index}`}
-                    initial={reducedMotion ? false : { y: '-110vh', rotate: (index % 2 ? 1 : -1) * (18 + index % 4 * 5) }}
-                    whileInView={{ y: 0, rotate: 0 }}
-                    viewport={{ once: true, amount: 0.35 }}
-                    transition={reducedMotion
-                      ? { duration: 0 }
-                      : {
-                          type: 'spring',
-                          mass: 1.1 + (index % 3) * 0.2,
-                          stiffness: 115,
-                          damping: 10 + (index % 4),
-                          delay: index * 0.055,
-                        }}
+                    custom={index}
+                    variants={letterVariants}
                   >
                     {character}
                   </motion.span>
@@ -51,7 +69,7 @@ export default function BouncingFooter() {
               })}
             </span>
           ))}
-        </h2>
+        </motion.h2>
         <span className="gravity-footer__impact" aria-hidden="true">THUMP!</span>
         <div className="gravity-footer__ground" aria-hidden="true"><span>— — — — — — — — — — — — — — — — — —</span></div>
       </div>
