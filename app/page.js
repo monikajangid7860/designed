@@ -27,9 +27,9 @@ export default function Home() {
       {/* <TypographicSplit /> */}
       {/* <ScrapbookFloat /> */}
       <ZigzagTeamFloat />
-      <CategoryShutter />
       <ViewfinderGallery />
-      {/* <BouncingFooter /> */}
+      <CategoryShutter />
+      <BouncingFooter />
     </main>
   );
 }

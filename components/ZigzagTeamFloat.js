@@ -20,7 +20,7 @@ const floaters = [
     imageHeight: 1247,
     top: '7%',
     width: 'clamp(112px, 14vw, 196px)',
-    mobileWidth: 'clamp(84px, 24vw, 138px)',
+    mobileWidth: 'clamp(112px, 30vw, 156px)',
     zIndex: 12,
 
     rotation: -7,
@@ -46,7 +46,7 @@ const floaters = [
     imageHeight: 2528,
     top: '54%',
     width: 'clamp(104px, 12vw, 170px)',
-    mobileWidth: 'clamp(78px, 22vw, 126px)',
+    mobileWidth: 'clamp(112px, 30vw, 156px)',
     zIndex: 44,
 
     rotation: 8,
@@ -70,7 +70,7 @@ const floaters = [
     imageHeight: 1192,
     top: '15%',
     width: 'clamp(110px, 13vw, 180px)',
-    mobileWidth: 'clamp(82px, 23vw, 132px)',
+    mobileWidth: 'clamp(112px, 30vw, 156px)',
     zIndex: 18,
 
     rotation: 5,
@@ -94,7 +94,7 @@ const floaters = [
 //     imageHeight: 2385,
 //     top: '65%',
 //     width: 'clamp(96px, 11vw, 156px)',
-//     mobileWidth: 'clamp(74px, 20vw, 116px)',
+//     mobileWidth: 'clamp(112px, 30vw, 156px)',
 //     zIndex: 8,
 
 //     rotation: -5,
@@ -118,7 +118,7 @@ const floaters = [
     imageHeight: 1192,
     top: '35%',
     width: 'clamp(108px, 13vw, 182px)',
-    mobileWidth: 'clamp(82px, 22vw, 128px)',
+    mobileWidth: 'clamp(112px, 30vw, 156px)',
     zIndex: 46,
 
     rotation: 6,
@@ -142,7 +142,7 @@ const floaters = [
     imageHeight: 745,
     top: '10%',
     width: 'clamp(102px, 12vw, 168px)',
-    mobileWidth: 'clamp(78px, 21vw, 122px)',
+    mobileWidth: 'clamp(112px, 30vw, 156px)',
     zIndex: 22,
 
     rotation: -8,
@@ -165,7 +165,7 @@ const floaters = [
     imageHeight: 2385,
     top: '25%',
     width: 'clamp(104px, 12vw, 170px)',
-    mobileWidth: 'clamp(78px, 21vw, 122px)',
+    mobileWidth: 'clamp(112px, 30vw, 156px)',
     zIndex: 28,
     rotation: 7,
     startX: '-52vw',
@@ -185,7 +185,7 @@ const floaters = [
     imageHeight: 1610,
     top: '48%',
     width: 'clamp(106px, 13vw, 180px)',
-    mobileWidth: 'clamp(80px, 22vw, 128px)',
+    mobileWidth: 'clamp(112px, 30vw, 156px)',
     zIndex: 38,
     rotation: -6,
     startX: '50vw',
@@ -205,7 +205,7 @@ const floaters = [
 //     imageHeight: 745,
 //     top: '18%',
 //     width: 'clamp(108px, 13vw, 182px)',
-//     mobileWidth: 'clamp(82px, 22vw, 128px)',
+//     mobileWidth: 'clamp(112px, 30vw, 156px)',
 //     zIndex: 20,
 //     rotation: 5,
 //     startX: '-30vw',
@@ -356,7 +356,7 @@ function FloatingImage({
         alt=""
         width={item.imageWidth}
         height={item.imageHeight}
-        sizes="(max-width: 760px) 24vw, 14vw"
+        sizes="(max-width: 390px) 112px, (max-width: 760px) 30vw, 14vw"
         quality={90}
         style={{ transform: 'translateX(-50%)' }}
         className="zigzag-team-float__image"
@@ -474,7 +474,7 @@ export default function ZigzagTeamFloat() {
               aria-label="The talent behind the brand"
             >
               <Image
-                src="/images/textmiddle.svg"
+                src="/images/text.png"
                 alt=""
                 width={303}
                 height={124}
