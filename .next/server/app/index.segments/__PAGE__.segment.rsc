@@ -1,0 +1,25 @@
+1:"$Sreact.fragment"
+2:I[23719,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/3qoozujj6a5vg.js"],"default"]
+3:I[90075,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/3qoozujj6a5vg.js"],"default"]
+4:I[20519,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/3qoozujj6a5vg.js"],"default"]
+5:I[58272,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/3qoozujj6a5vg.js"],"default"]
+6:I[12291,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/3qoozujj6a5vg.js"],"default"]
+7:I[47237,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/3qoozujj6a5vg.js"],"default"]
+8:I[75463,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/3qoozujj6a5vg.js"],"default"]
+9:I[97367,["/_next/static/chunks/0h2qsuyze9ds1.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+e:I[97367,["/_next/static/chunks/0h2qsuyze9ds1.js"],"ViewportBoundary"]
+f:I[97367,["/_next/static/chunks/0h2qsuyze9ds1.js"],"MetadataBoundary"]
+11:I[39756,["/_next/static/chunks/0h2qsuyze9ds1.js"],"default"]
+12:I[37457,["/_next/static/chunks/0h2qsuyze9ds1.js"],"default"]
+:HL["/_next/static/chunks/2abdnnb4l4qyi.css","style"]
+d:X
+0:{"buildId":"HlHrqAcV-qW9tODEhFCAx","data":[{"rsc":["$","$1","c",{"children":[["$","main",null,{"id":"top","children":[["$","$L2",null,{}],["$","$L3",null,{}],["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}],["$","$L8",null,{}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/3qoozujj6a5vg.js","async":true}]],["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]]}],"isPartial":"$@c","staleTime":"$d","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$Le",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$Lf",null,{"children":["$","$a",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Fuori Campo — Immagini in movimento"}],["$","meta","1",{"name":"description","content":"Un libro indipendente di immagini, persone e luoghi."}]]}]}]}],null]}],"isPartial":"$@10","staleTime":"$d","varyParams":null},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2abdnnb4l4qyi.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0h2qsuyze9ds1.js","async":true}]],["$","html",null,{"lang":"it","children":["$","body",null,{"children":["$","$L11",null,{"parallelRouterKey":"children","template":["$","$L12",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]}]]}],"isPartial":"$@13","staleTime":"$d","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@14","rootVaryParams":null,"needsRuntimeRequest":"$@15"}
+b:null
+d:300
+15:true
+d:C
+14:0
+10:"$undefined"
+13:"$undefined"
+c:"$undefined"
